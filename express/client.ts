@@ -1,6 +1,6 @@
 import { request, gql } from 'graphql-request';
 
-const endpoint = 'http://127.0.0.1:4000/graphql';
+const endpoint = 'http://0.0.0.0:4000/graphql';
 
 const mutation = gql`
   
